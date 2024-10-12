@@ -1,0 +1,5 @@
+gdown==5.2.0
+PySocks==1.7.1
+torchvision==0.19.1
+wheel==0.44.0
+openmim==0.3.9
