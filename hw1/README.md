@@ -35,19 +35,19 @@ bash train.sh
 ```bash
 bash infer_valid.sh
 ```
-：result wiil be saved as **final_output_valid.json** in current folder
+：result wiil be saved as **valid_r12922016.json** in current folder
 
 #### On testing dataset
 ```bash
 bash infer_test.sh
 ```
-：result wiil be saved as **final_output_test.json** in current folder
+：result wiil be saved as **test_r12922016.json** in current folder
 
 ### Evaluation
 
 #### On validation dataset
 ```python 
-python eval.py final_output_valid.json ./valid_target.json
+python eval.py valid_r12922016.json ./valid_target.json
 ```
 
 
