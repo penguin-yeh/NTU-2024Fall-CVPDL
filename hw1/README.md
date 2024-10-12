@@ -15,6 +15,14 @@ pip install -r requirements.txt
 ```bash
 bash download.sh
 ```
+you will see two files： **mmdetection.zip**, **model.pth** once finish. If don't, please download them using below links：<br>
+[mmdetection.zip](https://drive.google.com/uc?id=1Q-0tsPR3Yk3RXULOsAVfMpQ00-3Uxbwl)<br>
+[model.pth](https://drive.google.com/uc?id=1u_XYDUZY4GwdlemSf3YZI65H3Wo0mCTr)
+
+#### 4. Install additional packages
+```bash
+bash install.sh
+```
 ### Train
 ```bash
 bash train.sh
